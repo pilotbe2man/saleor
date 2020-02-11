@@ -55,7 +55,7 @@ django-storages==1.6.6
 django-templated-email==2.2.0
 django-versatileimagefield==1.10
 django-webpack-loader==0.6.0
-django==2.0.8
+django==2.2.10
 docutils==0.14            # via botocore
 elasticsearch-dsl==5.4.0
 elasticsearch==5.5.3
@@ -110,7 +110,7 @@ singledispatch==3.4.0.3   # via graphene-django
 six==1.11.0               # via bleach, cryptography, django-templated-email, elasticsearch-dsl, faker, freezegun, graphene, graphene-django, graphql-core, graphql-relay, html5lib, measurement, more-itertools, promise, purl, pytest, python-dateutil, singledispatch, social-auth-app-django, social-auth-core, vcrpy
 social-auth-app-django==2.1.0
 social-auth-core==1.7.0   # via social-auth-app-django
-sqlparse==0.2.4           # via django-debug-toolbar
+sqlparse==0.2.4           # via django, django-debug-toolbar
 stripe==2.8.1             # via django-payments
 suds-jurko==0.6           # via django-payments
 sympy==1.2                # via measurement
@@ -125,4 +125,4 @@ weasyprint==0.42.3
 webencodings==0.5.1       # via html5lib, tinycss2
 wrapt==1.10.11            # via vcrpy
 xmltodict==0.11.0         # via django-payments
-yarl               # via vcrpy
+yarl==1.4.2               # via vcrpy
