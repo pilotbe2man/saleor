@@ -11,7 +11,7 @@ atomicwrites==1.1.5       # via pytest
 attrs==18.1.0             # via pytest
 babel==2.6.0
 billiard==3.5.0.4         # via celery
-bleach==2.1.4
+bleach==3.1.1
 boto3==1.7.79
 botocore==1.10.79         # via boto3, s3transfer
 braintree==3.47.0         # via django-payments
@@ -67,7 +67,7 @@ graphene-django==2.2.0
 graphene==2.1.3           # via django-graphql-jwt, graphene-django
 graphql-core==2.1         # via graphene, graphene-django, graphql-relay
 graphql-relay==0.4.5      # via graphene
-html5lib==1.0.1           # via bleach, weasyprint
+html5lib==1.0.1           # via weasyprint
 idna==2.7                 # via cryptography, requests, yarl
 jmespath==0.9.3           # via boto3, botocore
 jsonfield==2.0.2          # via django-prices-vatlayer
@@ -122,7 +122,7 @@ uwsgi==2.0.17.1 ; platform_system != "Windows"
 vcrpy==1.13.0
 vine==1.1.4               # via amqp
 weasyprint==0.42.3
-webencodings==0.5.1       # via html5lib, tinycss2
+webencodings==0.5.1       # via bleach, html5lib, tinycss2
 wrapt==1.10.11            # via vcrpy
 xmltodict==0.11.0         # via django-payments
-yarl               # via vcrpy
+yarl==1.4.2               # via vcrpy
